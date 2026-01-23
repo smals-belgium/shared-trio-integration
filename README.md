@@ -1,7 +1,5 @@
 # Trio - Rest API
 
-
-
 ## About "TRIO - Return to work"
 
 TRIO Platform is a communication and collaboration platform, developed to make the exchange of administrative and medical information easier between actors involved in return to work processes. 
@@ -15,14 +13,18 @@ The main functionalities of TRIO are:
 - Send and receive notifications without having to know the actual person behind the role
 - Share medical and non-medical information with precise role management
 
-
 ## TRIO - A web service accessible through the eHealth API Gateway
 
 Ultimately, the TRIO REST API will be made available to integrators through the eHealth API Gateway in an acceptance and production environment.
-- Acceptance (not available at this moment) : https://portal-acpt.api.ehealth.fgov.be 
-- Production (not available at this moment): https://portal.api.ehealth.fgov.be 
+- Acceptance (not available at this moment) : https://portal-acpt.api.ehealth.fgov.be/trio/v1
+- Production (not available at this moment): https://portal.api.ehealth.fgov.be/trio/v1
 
+Waiting for the ACC release, the TRIO API will be available using the direct backend endpoint:
+- Acceptance (not ready at this moment) : https://www.acc.trio.fgov.be/trio/v1
 
+> **IMPORTANT**
+> 
+> Please note that calling TRIO API backend directly will not be allowed as soon as the API is available in the environment through the eHealth API Gateway, except to upload/download attachments, which is not allowed on the eHealth API Gateway.
 
 ## TRIO API - Cookbook
 
